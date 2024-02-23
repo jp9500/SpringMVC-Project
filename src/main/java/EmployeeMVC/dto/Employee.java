@@ -18,9 +18,11 @@ public class Employee
 {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	int employeeId;
-	String employeeName;
-	double employeeSalary;
-	long employeeContact;
+	private int employeeId;
+	private String employeeName;
+	private double employeeSalary;
+	private long employeeContact;
+	private String employeeEmail;
+	private String password;
 	
 }
